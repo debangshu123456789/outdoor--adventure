@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family:  "Roboto", sans-serif ;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 70px;
+    font-family:  "Roboto", sans-serif ;
+}
+h2{
+    font-style: 40px;
+    font-family:  "Roboto", sans-serif ;
+}
+h3{
+    font-style: 30px;
+    font-family:  "Roboto", sans-serif ;
+}
+.container{
+     width: 90%;
+     margin: auto;
+}
+section{
+    padding: 50px 0;
+}
+header{
+    background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #0000009e;
+}
+nav{
+    /* background-color: wheat; */
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h4{
+    color: rgb(243, 242, 240);
+    font-size: 24px;
+}
+nav h4 span{
+    font-weight: 100;
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 0px;
+    width: 0px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 0 0 0 20px;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white
+
+}
+
+
+.banner{
+    padding: 200px 0 150px;
+    text-align: center;
+    color: white
+}
+.banner h3{
+    font-style: italic;
+    margin: 0 0 10px;
+}
+span{
+background-color: #fe0000;
+height: 5px;
+width: 160px;
+display: inline-block;
+border-radius: 10px;
+}
+.banner h1{
+    
+}
+.banner button{
+    background-color: #e72323;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid #d11818;
+    -:
+    radius;
+    border-radius: 35px;
+    transition: all 0.3s linear; 
+}
+.banner button:hover{
+    background-color: #e7232300;
+    letter-spacing: 3px;
+}
+
+/* UPCOMING EVENTS */
+.event-main{
+    text-align: center;
+}
+.event-main h2{
+    margin: 0;
+    font-size: 40px;
+}
+.event-main span{
+    background-color: #fe0000;
+height: 5px;
+width: 160px;
+display: inline-block;
+border-radius: 10px;
+margin: 10px 0 50px 0;
+}
+.event{
+    display:flex;
+    width: 80%;
+    margin: 30px auto 0;
+}
+.event-box{
+    width: 50%;
+    margin:  22px;
+}
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 12.95px 12.95px 2.6px;
+}
+.event-box h4{
+    font-size: 20px;
+    margin: 25px 0 20px 0;
+}
+.event-box p{}
+.event-box a{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* EXPLORE THE WORLD */
+.Explore-section{
+    background-image: url(../images/father-son-beach-6219472.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #1d06ec49;
+    color: white;
+    background-attachment: fixed;
+}
+.Explore-main{
+    display: flex;
+}
+.Explore{
+    width: 50%;
+}
+.Explore h1{
+    margin-bottom: 0;
+}
+.Explore p{
+    margin: 40px 0;
+}
+.Explore a{
+     color: rgb(245, 240, 240);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+font-weight: bold;
+}
+   /* TOURS & DESTINATION */
+   .tours-main{
+     display: flex;
+    } 
+   .tour{
+    padding: 14px;
+   } 
+   .tour h3{
+    margin: 0;
+    font-size: 30px;
+   } 
+   .tour p{
+    margin: 30px 0;
+   } 
+   .tour a{} 
+   .tour img{}
+   .small{
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+   .large{
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+footer{
+background-color: black;
+color: white;
+padding: 60px 0;
+text-align: center;
+}
+
+.fab{
+font-size: 40px;
+color: white;
+margin: 10px;
+}
+
+.fab{
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
+
